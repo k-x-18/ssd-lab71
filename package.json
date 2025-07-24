@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.7.1",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "name": "ssd-lab71",
+  "version": "1.0.0",
+  "description": "npm install mocha chai --save-dev npm install selenium-webdriver Ensure you have the appropriate WebDriver (e.g., ChromeDriver) installed for your browser. https://developer.chrome.com/docs/chromedriver/get-started",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
